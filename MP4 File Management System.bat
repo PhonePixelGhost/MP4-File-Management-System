@@ -5,7 +5,7 @@ setlocal enabledelayedexpansion
 :: MP4 Backup and Copy Script - Production Version with Robocopy
 :: ===================================================================
 :: กำหนด Path ตัวแปร (แก้ไข Path จริงตามสภาพแวดล้อม Server)
-set "\\ServerName\SharedFolder\NewFiles"
+set "SERVER_PATH=\\ServerName\SharedFolder\NewFiles"
 set "USER_PATH=\\ServerName\SharedFolder\Production"
 set "BACKUP_PATH=\\ServerName\SharedFolder\Backup"
 
